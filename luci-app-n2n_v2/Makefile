@@ -10,7 +10,7 @@ define Package/$(PKG_NAME)
   SECTION:=luci
   CATEGORY:=LuCI
   SUBMENU:=3. Applications
-  TITLE:=LuCI support for N2N_V2.
+  TITLE:=LuCI support for N2N_V2s.
   DEPENDS:=+n2n_v2 +libc +wget +ca-certificates
   PKGARCH:=all
 endef

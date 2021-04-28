@@ -10,7 +10,7 @@ function index()
 	
 	local page
 
-	entry({"admin", "vpn", "n2n_v2"}, cbi("n2n_v2"), _("N2N VPN(V2)"), 80).dependent=false
+	entry({"admin", "vpn", "n2n_v2"}, cbi("n2n_v2"), _("N2N VPN(V2s)"), 80).dependent=false
 	entry({"admin","vpn","n2n_v2","edge_status"},call("edge_status")).leaf=true
 	entry({"admin","vpn","n2n_v2","supernode_status"},call("supernode_status")).leaf=true
 end
